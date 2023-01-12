@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100vw;
+    height: 80px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.sub-menu li {
+   list-style: none;
+   display: in;
+}
+
+

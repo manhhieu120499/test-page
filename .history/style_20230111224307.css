@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100vw;
+    height: 80px;
+    background-color: orange;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    bor
+}
+
+

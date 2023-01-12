@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-sidebar {
+    display: flex;
+}
+
+.left-sidebar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.sub-menu li {
+   list-style: none;
+   display: inline-block;
+   line-height: 80px;
+   padding: 0px 25px;
+}
+
+.sub-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.right-sidebar a {
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 15px;
+    color: black;
+}
+
+input {
+    padding: 10px 10px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    right: 430px;
+    top: 8px;
+    opacity: 0.7;
+}
+
+.right-sidebar svg {
+    line-height: 80px;
+}
+
+body {
+    height: 1500px;
+    width: auto;
+}
+
+.shop-picture img {
+    display: block;
+    height: 534px;
+    width: 1500px;
+    margin: 10px auto;
+    border-radius: 40px;
+}
+
+.title {
+    text-align: center;
+    width: 253px;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: orange;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: block;
+    font-size: 20px;
+}
+
+#footer {
+   height: 250px;
+   width: 100%;
+   background-color: orange;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 800px;
+}
+
+.address, .contact {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.address {
+    margin-left: 100px;
+}
+
+.address li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.address span, .contact span {
+    text-decoration: underline;
+}
+
+.contact {
+    margin-right: 100px;
+}
+
+.contact li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: white;
+}
+
+.address ul li svg {
+    color: black;
+}
+
